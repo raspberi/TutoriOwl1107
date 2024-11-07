@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module0Subtopic2_Page3">
+
+
+    <TextView
+        android:id="@+id/module0_subtopic2_header"
+        style="@style/default_header_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:text="@string/module0_subtopic2_string_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/module0_subtopic2_page3_text"
+        style="@style/default_string_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:padding="40dp"
+        android:text="@string/module0_subtopic2_page3_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/module0_subtopic2_header"
+        app:layout_constraintVertical_bias="0" />
+
+    <ImageButton
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/continue_button"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="50dp"/>
+
+    <ImageButton
+        android:id="@+id/previousButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:flow_horizontalBias="0.162"
+        app:flow_verticalBias="0.523"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/module0_subtopic2_page3_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/previous"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/module0_subtopic2_header"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

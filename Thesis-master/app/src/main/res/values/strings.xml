@@ -1,0 +1,659 @@
+<resources>
+    <string name="app_name">Apple</string>
+
+    <!--Dashboard-->
+    <string name="dashboard_string_module_0">Module 0</string>
+    <string name="dashboard_string_description_module_0">What is pinyin?</string>
+    <string name="dashboard_string_percent_complete">0% Complete</string>
+
+    <style name="dashboard_string_style_module_0">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="dashboard_string_style_description_module_0">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="dashboard_string_style_progress_complete">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!--...-->
+
+    <!--Welcome Screen-->
+    <string name="main_string_tutor">Tutor</string>
+    <string name="main_string_i">i</string>
+    <string name="main_string_owl">owl</string>
+    <string name="main_string_get_started">Get Started</string>
+
+    <string name="main_string_Welcome">Welcome!</string>
+    <string name="main_string_welcome_message">Tutoriowl will help you to master Mandarin\npronunciation with interactive lessons and\npractice exercises.</string>
+
+    <style name="main_string_style_welcome">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/gainsboro</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="main_string_style_welcome_message">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/gainsboro</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+
+    <style name="main_string_style_tutor">
+        <item name="fontFamily">@font/poppins_black</item>
+        <item name="android:textColor">@color/lavender_indigo</item>
+        <item name="android:textSize">38sp</item>
+    </style>
+
+    <style name="main_string_style_i">
+        <item name="fontFamily">@font/poppins_black</item>
+        <item name="android:textColor">@color/cadmium_orange</item>
+        <item name="android:textSize">38sp</item>
+    </style>
+
+    <style name="main_string_style_owl">
+        <item name="fontFamily">@font/poppins_black</item>
+        <item name="android:textColor">@color/lavender_indigo</item>
+        <item name="android:textSize">38sp</item>
+    </style>
+
+    <style name="main_string_style_get_started">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--...-->
+
+    <!--LoginActivity-->
+    <string name="login_string_log">Log</string>
+    <string name="login_string_in">in</string>
+    <string name="login_string_description">Logging in to your account</string>
+    <string name="login_string_hint_username">Username</string>
+    <string name="login_string_hint_password">Password</string>
+    <string name="login_string_enter">Enter</string>
+
+    <style name="login_string_style_log">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="login_string_style_in">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="login_string_style_description">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="login_string_style_enter">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--Actionbar/Toolbar-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dashboard_string_greet">Goodmorning \nKhalid!</string>
+
+    <style name="dashboard_string_style_greet">
+        <item name="android:text">@string/dashboard_string_greet</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--Bottom navigation-->
+    <string name="bottom_navigation_string_dashboard">Dashboard</string>
+    <string name="bottom_navigation_string_performance">Performance</string>
+    <string name="bottom_navigation_string_leaderboard">Leaderboard</string>
+    <string name="bottom_navigation_string_practice">Practice</string>
+    <string name="bottom_navigation_string_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Fragment Performance-->
+    <string name="fragment_practice_string_initials">Initials</string>
+
+    <style name="fragment_practice_string_style_initials">
+        <item name="android:text">@string/fragment_practice_string_initials</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!--Fragment Practice-->
+    <string name="fragment_practice_string_practice">Practice</string>
+    <string name="fragment_practice_string_pinyin_characters">Pinyin\nCharacters</string>
+    <string name="fragment_practice_string_pinyin_characters_description">breaks down Chinese\ncharacters into their\nparts</string>
+    <string name="fragment_practice_string_pronunciation_practice">"Let's practice your\npronunciation"</string>
+    <string name="fragment_practice_string_pronunciation_practice_description">Practice your pronunciation\nhere.</string>
+
+    <style name="fragment_practice_string_style_practice">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="fragment_practice_string_style_pinyin_characters">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="fragment_practice_string_style_pronunciation_practice">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="fragment_practice_string_style_pinyin_characters_description">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="fragment_practice_string_style_pronunciation_practice_description">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--Fragment Initial-->
+    <string name="fragment_initial_string_b">b</string>
+    <string name="fragment_initial_string_p">p</string>
+    <string name="fragment_initial_string_m">m</string>
+    <string name="fragment_initial_string_f">f</string>
+    <string name="fragment_initial_string_d">d</string>
+    <string name="fragment_initial_string_i">i</string>
+    <string name="fragment_initial_string_g">g</string>
+    <string name="fragment_initial_string_k">k</string>
+    <string name="fragment_initial_string_h">h</string>
+    <string name="fragment_initial_string_j">j</string>
+    <string name="fragment_initial_string_q">q</string>
+    <string name="fragment_initial_string_x">x</string>
+    <string name="fragment_initial_string_zh">zh</string>
+    <string name="fragment_initial_string_ch">ch</string>
+    <string name="fragment_initial_string_sh">sh</string>
+    <string name="fragment_initial_string_r">r</string>
+    <string name="fragment_initial_string_z">z</string>
+    <string name="fragment_initial_string_c">c</string>
+    <string name="fragment_initial_string_s">s</string>
+    <string name="fragment_initial_string_y">y</string>
+    <string name="fragment_initial_string_t">t</string>
+
+    <style name="fragment_initial_string_style">
+        <item name="backgroundColor">@null</item>
+        <item name="background">@null</item>
+        <item name="fontFamily">@font/righteous</item>
+        <item name="android:textColor">@color/charcoal_gray</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <!--Fragment Simple-->
+    <string name="fragment_simple_string_a">a</string>
+    <string name="fragment_simple_string_e">e</string>
+    <string name="fragment_simple_string_i">i</string>
+    <string name="fragment_simple_string_o">o</string>
+    <string name="fragment_simple_string_u">u</string>
+    <string name="fragment_simple_string_ü">ü</string>
+
+    <!--Fragment Compound-->
+    <string name="fragment_compound_string_ai">ai</string>
+    <string name="fragment_compound_string_ei">ei</string>
+    <string name="fragment_compound_string_ou">ou</string>
+    <string name="fragment_compound_string_an">an</string>
+    <string name="fragment_compound_string_en">en</string>
+    <string name="fragment_compound_string_in">in</string>
+    <string name="fragment_compound_string_un">un</string>
+    <string name="fragment_compound_string_ün">ün</string>
+    <string name="fragment_compound_string_iang">iang</string>
+    <string name="fragment_compound_string_eng">eng</string>
+
+    <string name="fragment_compound_string_swipe">&#60;&#32;&#32;&#32;&#32;swipe&#32;&#32;&#32;&#32;&#62;</string>
+
+    <style name="fragment_compound_string_style_swipe">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:color">@color/soft_peach</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <string name="fragment_compound_string_compound_finals">Compound Finals</string>
+    <string name="fragment_initials_string_initials">Initials</string>
+    <string name="fragment_simple_string_simple_finals">Simple Finals</string>
+
+    <style name="fragment_compound_string_style_compound_finals">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--Alert Dialog-->
+    <string name="characters_dialog_box_string_question">What do you want to know about this character?</string>
+    <string name="characters_dialog_box_string_pronunciation_how">I want to know its pronunciation</string>
+    <string name="characters_dialog_box_string_details">I want to know its details</string>
+    <string name="characters_dialog_box_string_cancel">Cancel</string>
+
+    <style name="characters_dialog_box_string_style_question">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/lotion</item>
+    </style>
+
+    <string name="characters_dialog_description_string">The \'ian\' final sounds somewhat like the English word "yen". To pronounce it, start with the \'i\' sound as in "see", add a nasal quality as in "singer", and end with the \'an\' sound as in "can".</string>
+
+    <style name="characters_dialog_description_string_style">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <string name="characters_dialog_description_string_exit">Click outside to exit</string>
+
+    <style name="characters_dialog_description_string_style_exit">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="color">@color/soft_peach</item>
+    </style>
+
+    <!-- FROM ERI -->
+
+    <!--General-->
+    <style name="default_header_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">33sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="default_string_style">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="default_subheader_style">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <!--Dashboard-->
+    <style name="dashboard_string_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="dashboard_string_style_description">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--Modules-->
+    <string name="dashboard_string_module_1">Module 1</string>
+    <string name="dashboard_string_description_module_1">Initials</string>
+
+    <string name="dashboard_string_module_2">Module 2</string>
+    <string name="dashboard_string_description_module_2">Finals</string>
+
+    <string name="dashboard_string_module_3">Module 3</string>
+    <string name="dashboard_string_description_module_3">Tones</string>
+
+    <!--Navigation Tab-->
+    <string name="dashboard_string_dashboard_button">Dashboard</string>
+
+    <style name="dashboard_string_style_dashboard_button">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <string name="dashboard_string_performance_button">Performance</string>
+
+    <style name="dashboard_string_style_performance_button">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <string name="dashboard_string_practice_button">Practice</string>
+
+    <style name="dashboard_string_style_practice_button">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--Module 0 Fragment -->
+    <style name="module0_string_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="module0_string_header_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">33sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="module0_string_style_description">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="module0_subheader_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <string name="module0_string_subheader">Subtopics</string>
+    <string name="module0_string_header">Module 0</string>
+    <string name="module0_string_subtopic">Introduction</string>
+    <string name="module0_string_subtopic1_description">What is Chinese?</string>
+    <string name="module0_string_subtopic2_description">What is Pinyin?</string>
+    <string name="module0_string_subtopic3_description">Components of Pinyin</string>
+
+    <!--Module 0 Subtopic 1 Fragment -->
+    <string name="module0_subtopic1_string_header">What is Chinese?</string>
+    <string name="module0_subtopic1_page1_content">Chinese is a family of related languages or
+                        dialects that originated in China. There are hundreds, and some argue, thousands, of
+                        different dialects of Chinese. The most important one you should know is <strong><b>Mandarin</b></strong>.</string>
+    <string name="module0_subtopic1_page2_content">Mandarin, with about 900,000,000 speakers, is the official language of China,
+                        Taiwan, an official language of Singapore, and one of six official languages of the united Nations. When people refer to the
+                        “Chinese” language, they are usually referring to Mandarin.</string>
+    <string name="module0_subtopic1_page3_content">Mandarin is</string>
+    <string name="module0_subtopic1_page3.1_content">• the official/main language of China and Taiwan</string>
+    <string name="module0_subtopic1_page3.2_content">• one of the four official languages of Singapore</string>
+    <string name="module0_subtopic1_page3.3_content">• spoken in Malaysia, Indonesia, Vietnam, Hong Kong, South
+                        Africa, Macau, Cambodia, Thailand, Philippines, UK, USA, and Brunei, among others</string>
+
+    <!--Module 0 Subtopic 2 Fragment -->
+    <string name="module0_subtopic2_string_header">What is Pinyin?</string>
+    <string name="module0_subtopic2_page1_content">Pinyin is a romanization system. A romanization system allows us to change
+                    writing from a script, such as Chinese or Russian, into the Latin (Roman) script which uses the ABC alphabet that you already know.</string>
+    <string name="module0_subtopic2_page2_content">Chinese has several romanization systems, but in this course we are going to
+                    stick to just one - Pinyin! We use Pinyin to convert characters into words we can read and pronounce more easily.</string>
+    <string name="module0_subtopic2_page3_content">Pinyin is a phonetic system and is formally called Hanyu Pinyin. Hanyu
+                    means the language of the Han people - China’s largest ethnic group.</string>
+
+    <!--Module 0 Subtopic 2 Fragment -->
+    <string name="module0_subtopic3_string_header">Components of Pinyin</string>
+    <string name="module0_subtopic3_page1_content">A Pinyin syllable consists of 3 components -
+                    Initials, Finals, and Tones.</string>
+    <string name="module0_subtopic3_page2_content">Initials: Represent consonant sounds in Pinyin.</string>
+    <string name="module0_subtopic3_page3_content">Finals: Represent vowel sounds in Pinyin.</string>
+    <string name="module0_subtopic3_page4_content">Tones : There are four tones in total.</string>
+    <string name="module0_subtopic3_page4.2_content">Remember : Tones are always placed on top of the initials!</string>
+
+    <!--Module 1 Fragment -->
+    <style name="module1_string_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="module1_string_header_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">33sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="module1_string_style_description">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="module1_subheader_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <string name="module1_string_subheader">Subtopics</string>
+    <string name="module1_string_header">Module 1</string>
+    <string name="module1_string_subtopic">Initials</string>
+    <string name="module1_string_subtopic1_description">Aspiration</string>
+    <string name="module1_string_subtopic2_description">First Set of Initials</string>
+    <string name="module1_string_subtopic3_description">Second Set of Initials</string>
+
+    <!--Module 1 Subtopic 1-->
+    <string name="module1_subtopic1_string_header">Aspiration</string>
+    <string name="module1_subtopic1_page1_content">In a Pinyin syllable, an initial is
+                    the consonant. Initials are always before the final, hence its name. There are 21 Pinyin
+                    initials in total.</string>
+    <string name="module1_subtopic1_page2_content">By definition, aspiration is a strong puff of air.
+                    There are 6 aspirated initials in Mandarin.</string>
+    <string name="module1_subtopic1_page3_content">Click on the buttons to hear how the following initials
+                    are pronounced. Can you hear a difference?</string>
+
+    <!--Module 1 Subtopic 2-->
+    <string name="module1_subtopic2_string_header">First Set of Initials</string>
+    <string name="module1_subtopic2_page1_content">Click the buttons to hear how each initial is pronounced</string>
+    <string name="module1_subtopic2_page2_content">Pronounced similar to how /b/ in the English word “bath” is pronounced</string>
+    <string name="module1_subtopic2_page2.2_content">Pronounced similar to how /p/ in the English word “puff” is pronounced</string>
+    <string name="module1_subtopic2_page3_content">Pronounced similar to how /m/ in the English word “man” is pronounced</string>
+    <string name="module1_subtopic2_page3.2_content">Pronounced similar to how /f/ in the English word “fun” is pronounced</string>
+    <string name="module1_subtopic2_page4_content">Pronounced similar to how /d/ in the English word “dig” is pronounced</string>
+    <string name="module1_subtopic2_page4.2_content">Pronounced similar to how /t/ in the English word “take” is pronounced</string>
+    <string name="module1_subtopic2_page5_content">Pronounced similar to how /n/ in the English word “nasty” is pronounced</string>
+    <string name="module1_subtopic2_page5.2_content">Pronounced similar to how /l/ in the English word “large” is pronounced</string>
+    <string name="module1_subtopic2_page6_content">Pronounced similar to how /g/ in the English word “gun” is pronounced</string>
+    <string name="module1_subtopic2_page6.2_content">Pronounced similar to how /k/ in the English word “king” is pronounced</string>
+    <string name="module1_subtopic2_page7_content">Pronounced similar to how /h/ in the English word “hat” is pronounced</string>
+
+    <!--Module 1 Subtopic 3-->
+    <string name="module1_subtopic3_string_header">Second Set of Initials</string>
+    <string name="module1_subtopic3_page1_content">Click the buttons to hear how each initial is pronounced</string>
+    <string name="module1_subtopic3_page2_content">Pronounced similar to how /j/ in the English word “jeans” is pronounced</string>
+    <string name="module1_subtopic3_page2.2_content">Pronounced similar to how /chee/ in the English word “cheek” is pronounced</string>
+    <string name="module1_subtopic3_page3_content">Pronounced similar to how /shee/ in the English word “sheep” is pronounced</string>
+    <string name="module1_subtopic3_page4_content">PPronounced similar to how /ger/ in the English word “germ” is pronounced</string>
+    <string name="module1_subtopic3_page4.2_content">Pronounced similar to how /chir/ in the English word “chirp” is pronounced</string>
+    <string name="module1_subtopic3_page5_content">Pronounced similar to how /shir/ in the English word “shirt” is pronounced</string>
+    <string name="module1_subtopic3_page5.2_content">Pronounced similar to how /r/ in the English word “run” is pronounced</string>
+    <string name="module1_subtopic3_page6_content">Pronounced similar to how /ds/ in the English word “reads” is pronounced</string>
+    <string name="module1_subtopic3_page6.2_content">Pronounced similar to how /ts/ in the English word “cats” is pronounced</string>
+    <string name="module1_subtopic3_page7_content">Pronounced similar to how /s/ in the English word “silk” is pronounced</string>
+
+
+    <!--Module 2 Fragment -->
+    <style name="module2_string_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="module2_string_header_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">33sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="module2_string_style_description">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="module2_subheader_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <string name="module2_string_subheader">Subtopics</string>
+    <string name="module2_string_header">Module 2</string>
+    <string name="module2_string_subtopic">Finals</string>
+    <string name="module2_string_subtopic1_description">First Set of Finals</string>
+    <string name="module2_string_subtopic2_description">Second and Third Set of Finals</string>
+    <string name="module2_string_subtopic3_description">Fourth Set of Finals</string>
+    <string name="module2_string_subtopic4_description">Fifth Set of Finals</string>
+
+    <!--Module 2 Subtopic 1-->
+    <string name="module2_subtopic1_string_header">First Set of Finals</string>
+    <string name="module2_subtopic1_string_subheader1">Single Finals</string>
+    <string name="module2_subtopic1_string_subheader2">Double Finals</string>
+    <string name="module2_subtopic1_string_subheader3">Triple Finals</string>
+
+    <string name="module2_subtopic1_directions">Click the buttons to hear how each final is pronounced</string>
+
+    <string name="module2_subtopic1_page1_content">In a Pinyin syllable, finals represent vowel sounds.
+            Finals always come after initials. This course will tackle 35 Pinyin finals, separated into five sets.</string>
+
+    <string name="module2_subtopic1_page3_content">Pronounced similar to how /a/ in the English word “father” is pronounced</string>
+    <string name="module2_subtopic1_page3.2_content">Pronounced similar to how /o/ in the English word “low” is pronounced</string>
+    <string name="module2_subtopic1_page4_content">Pronounced similar to how /u/ in the English word “up” is pronounced</string>
+    <string name="module2_subtopic1_page4.2_content">Pronounced similar to how /ee/ in the English word “teeth” is pronounced</string>
+    <string name="module2_subtopic1_page5_content">Pronounced similar to how /oo/ in the English word “food” is pronounced</string>
+    <string name="module2_subtopic1_page5.2_content">Pronounced similar to how /eau/ in the English word “beauty” is pronounced</string>
+    <string name="module2_subtopic1_page6_content">Pronounced similar to how the English word “eye” is pronounced</string>
+    <string name="module2_subtopic1_page6.2_content">Pronounced similar to how /ey/ in the English word “hey” is pronounced</string>
+    <string name="module2_subtopic1_page7_content">Pronounced similar to how /ow/ in the English word “cow” is pronounced</string>
+    <string name="module2_subtopic1_page7.2_content">Pronounced similar to how /ow/ in the English word “blow” is pronounced</string>
+    <string name="module2_subtopic1_page8_content">Pronounced similar to how /an/ in the English word “ban” is pronounced</string>
+    <string name="module2_subtopic1_page8.2_content">Pronounced similar to how /un/ in the English word “under” is pronounced</string>
+    <string name="module2_subtopic1_page9_content">Pronounced similar to how /ong/ in the English word “mongrel” is pronounced</string>
+    <string name="module2_subtopic1_page9.2_content">Pronounced similar to how /ung/ in the English word “hung” is pronounced</string>
+
+    <!--Module 2 Subtopic 2 -->
+    <string name="module2_subtopic2_string_header">Second Set of Finals</string>
+    <string name="module2_subtopic2.1_string_header">Third Set of Finals</string>
+
+    <string name="module2_subtopic2_directions">Click the buttons to hear how each final is pronounced</string>
+
+    <string name="module2_subtopic2_page1_content">Pronounced similar to how the English word “err” is pronounced</string>
+
+    <string name="module2_subtopic2_page3_content">Pronounced similar to how /ya/ in the English word “yard” is pronounced</string>
+    <string name="module2_subtopic2_page3.2_content">Pronounced similar to how the English word “yen” is pronounced</string>
+    <string name="module2_subtopic2_page4_content">Pronounced similar to how the English word “yeah” is pronounced</string>
+    <string name="module2_subtopic2_page4.2_content">Pronounced similar to how /ean/ in the English word “bean” is pronounced</string>
+    <string name="module2_subtopic2_page5_content">Pronounced similar to how /yo/ in the English word “yogurt” is pronounced</string>
+    <string name="module2_subtopic2_page5.2_content">Pronounced similar to how /ing/ in the English word “ring” is pronounced</string>
+    <string name="module2_subtopic2_page6_content">Pronounced similar to how /yow/ in the English word “yowl” is pronounced</string>
+
+    <!-- Module 2 Subtopic 3 -->
+    <string name="module2_subtopic3_string_header">Fourth Set of Finals</string>
+
+    <string name="module2_subtopic3_directions">Click the buttons to hear how each final is pronounced</string>
+
+    <string name="module2_subtopic3_page2_content">Pronounced similar to how /wo/ in the English word “wobble” is pronounced</string>
+    <string name="module2_subtopic3_page2.2_content">Pronounced similar to how the English word “way” is pronounced</string>
+    <string name="module2_subtopic3_page3_content">Pronounced similar to how /wo/ in the English word “woah” is pronounced</string>
+    <string name="module2_subtopic3_page3.2_content">Pronounced similar to how /wan/ in the English word “wander” is pronounced</string>
+    <string name="module2_subtopic3_page4_content">Pronounced similar to how the English word “why” is pronounced</string>
+    <string name="module2_subtopic3_page4.2_content">Pronounced similar to how /an’/ in the English phrase “go an’ look” is pronounced</string>
+
+    <!-- Module 2 Subtopic 4 -->
+    <string name="module2_subtopic4_string_header">Fifth Set of Finals</string>
+
+    <string name="module2_subtopic4_directions">Click the buttons to hear how each final is pronounced</string>
+
+    <string name="module2_subtopic4_page2_content">Pronounced similar to how the English word “young” is pronounced</string>
+    <string name="module2_subtopic4_page2.2_content">Pronounced similar to how /won/ the English word “wonky” is pronounced</string>
+    <string name="module2_subtopic4_page3_content">Pronounced similar to how the English word “tongue” is pronounced but starting with a /w/ sound instead of /t/</string>
+    <string name="module2_subtopic4_page3.2_content">Pronounced similar to how /you a/ the English phrase “you ate” is pronounced</string>
+    <string name="module2_subtopic4_page4_content">Pronounced similar to how /you en/ the English phrase “you enjoy” is pronounced</string>
+    <string name="module2_subtopic4_page4.2_content">Pronounced similar to how /un/ the English word “united” is pronounced</string>
+    <string name="module2_subtopic4_page5_content">Pronounced similar to how the English word “song” is pronounced but starting with a /y/ sound instead of /s/</string>
+
+
+    <!--Module 3 Fragment -->
+    <style name="module3_string_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="module3_string_header_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">33sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="module3_string_style_description">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="module3_subheader_style">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_olive</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <string name="module3_string_subheader">Subtopics</string>
+    <string name="module3_string_header">Module 3</string>
+    <string name="module3_string_subtopic">Tones</string>
+    <string name="module3_string_subtopic1_description">Introduction</string>
+    <string name="module3_string_subtopic2_description">First and Second Tone</string>
+    <string name="module3_string_subtopic3_description">Third and Fourth Tone</string>
+
+
+    <!--Module 3 Subtopic 1 Fragment -->
+    <string name="module3_subtopic1_string_header">What are Tones?</string>
+    <string name="module3_subtopic1_page1_content">The basic unit of the Chinese language is a syllable,
+        with three components; initials (consonants), finals (vowels), and tones.</string>
+    <string name="module3_subtopic1_page1.1_content">Remember: </string>
+    <string name="module3_subtopic1_page1.2_content">• Tones are placed on top of finals</string>
+    <string name="module3_subtopic1_page1.3_content">• A change in tone gives a different meaning to the word</string>
+
+    <string name="module3_subtopic1_page2_content">Mandarin is a tonal language. Tones are an essential part of proper pronunciation,
+        as many characters in Mandarin have the same sound. Therefore, tones are necessary when speaking Chinese in order to differentiate
+        words from each other.</string>
+
+    <string name="module3_subtopic1_page3_content">Pinyin tones are very much like the English intonation and voice inflection.</string>
+    <string name="module3_subtopic1_page3.1_content">A difference in tone or voice inflection in English would give a different meaning, this then is similar to Mandarin Chinese.</string>
+    <string name="module3_subtopic1_page3.2_content">An example in English is: “Yes?” and “Yes!”</string>
+
+    <!--Module 3 Subtopic 2 Fragment -->
+    <string name="module3_subtopic2_string1_header">First Tone</string>
+    <string name="module3_subtopic2_string2_header">Second Tone</string>
+    <string name="module3_subtopic2_page1_content">• High and flat tone</string>
+    <string name="module3_subtopic2_page1.1_content">• Similar pitch as /may/ in the English word “maybe”</string>
+
+    <string name="module3_subtopic2_page2_content">Click the buttons to hear how each syllable in the first tone is pronounced</string>
+
+    <string name="module3_subtopic2_page3_content">• Rising tone</string>
+    <string name="module3_subtopic2_page3.1_content">• Similar intonation as interrogative sentences in English</string>
+    <string name="module3_subtopic2_page3.2_content">• Similar pitch as the English sentence “What?”</string>
+
+    <string name="module3_subtopic2_page4_content">Click the buttons to hear how each syllable in the second tone is pronounced</string>
+
+    <!--Module 3 Subtopic 3 Fragment -->
+    <string name="module3_subtopic3_string1_header">Third Tone</string>
+    <string name="module3_subtopic3_string2_header">Fourth Tone</string>
+    <string name="module3_subtopic3_page1_content">• Falling-rising tone</string>
+    <string name="module3_subtopic3_page1.1_content">• From mid-low to low and rises to mid-high pitch</string>
+    <string name="module3_subtopic3_page1.2_content">• In this course, the final “ü” is pronounced in the third tone</string>
+
+
+    <string name="module3_subtopic3_page2_content">Click the buttons to hear how each syllable in the third tone is pronounced</string>
+
+    <string name="module3_subtopic3_page3_content">• Falling tone</string>
+    <string name="module3_subtopic3_page3.1_content">• Similar intonation as an emphatic statement in English</string>
+    <string name="module3_subtopic3_page3.2_content">• Similar pitch as the English sentence “No!”</string>
+
+    <string name="module3_subtopic3_page4_content">Click the buttons to hear how each syllable in the fourth tone is pronounced</string>
+
+
+</resources>

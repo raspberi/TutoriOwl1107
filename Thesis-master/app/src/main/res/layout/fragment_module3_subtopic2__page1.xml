@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module3Subtopic2_Page1">
+
+
+    <TextView
+        android:id="@+id/module3_subtopic2_header"
+        style="@style/default_header_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:text="@string/module3_subtopic2_string1_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/module3_subtopic2_page1_text"
+        style="@style/default_string_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:padding="40dp"
+        android:text="@string/module3_subtopic2_page1_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/module3_subtopic2_header"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/module3_subtopic2_page1.1_text"
+        style="@style/default_string_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="50dp"
+        android:text="@string/module3_subtopic2_page1.1_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/module3_subtopic2_page1_text"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageButton
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:scaleType="center"
+        android:layout_marginTop="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/continue_button" />
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/module3_subtopic1_header"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
